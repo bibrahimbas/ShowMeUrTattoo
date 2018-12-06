@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		214EB95821B8D57A00AF0A3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214EB95721B8D57A00AF0A3B /* AppDelegate.swift */; };
+		214EB95A21B8D57A00AF0A3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214EB95921B8D57A00AF0A3B /* ViewController.swift */; };
+		214EB95D21B8D57A00AF0A3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214EB95B21B8D57A00AF0A3B /* Main.storyboard */; };
+		214EB95F21B8D57C00AF0A3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 214EB95E21B8D57C00AF0A3B /* Assets.xcassets */; };
+		214EB96221B8D57C00AF0A3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214EB96021B8D57C00AF0A3B /* LaunchScreen.storyboard */; };
+		214EB96D21B8D57C00AF0A3B /* ShowMeUrTattooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214EB96C21B8D57C00AF0A3B /* ShowMeUrTattooTests.swift */; };
+		214EB97821B8D57C00AF0A3B /* ShowMeUrTattooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214EB97721B8D57C00AF0A3B /* ShowMeUrTattooUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		214EB96921B8D57C00AF0A3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 214EB94C21B8D57A00AF0A3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 214EB95321B8D57A00AF0A3B;
+			remoteInfo = ShowMeUrTattoo;
+		};
+		214EB97421B8D57C00AF0A3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 214EB94C21B8D57A00AF0A3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 214EB95321B8D57A00AF0A3B;
+			remoteInfo = ShowMeUrTattoo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		214EB95421B8D57A00AF0A3B /* ShowMeUrTattoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowMeUrTattoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		214EB95721B8D57A00AF0A3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		214EB95921B8D57A00AF0A3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		214EB95C21B8D57A00AF0A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		214EB95E21B8D57C00AF0A3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		214EB96121B8D57C00AF0A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		214EB96321B8D57C00AF0A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		214EB96821B8D57C00AF0A3B /* ShowMeUrTattooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowMeUrTattooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		214EB96C21B8D57C00AF0A3B /* ShowMeUrTattooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMeUrTattooTests.swift; sourceTree = "<group>"; };
+		214EB96E21B8D57C00AF0A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		214EB97321B8D57C00AF0A3B /* ShowMeUrTattooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowMeUrTattooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		214EB97721B8D57C00AF0A3B /* ShowMeUrTattooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMeUrTattooUITests.swift; sourceTree = "<group>"; };
+		214EB97921B8D57C00AF0A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		214EB95121B8D57A00AF0A3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214EB96521B8D57C00AF0A3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214EB97021B8D57C00AF0A3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		214EB94B21B8D57A00AF0A3B = {
+			isa = PBXGroup;
+			children = (
+				214EB95621B8D57A00AF0A3B /* ShowMeUrTattoo */,
+				214EB96B21B8D57C00AF0A3B /* ShowMeUrTattooTests */,
+				214EB97621B8D57C00AF0A3B /* ShowMeUrTattooUITests */,
+				214EB95521B8D57A00AF0A3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		214EB95521B8D57A00AF0A3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				214EB95421B8D57A00AF0A3B /* ShowMeUrTattoo.app */,
+				214EB96821B8D57C00AF0A3B /* ShowMeUrTattooTests.xctest */,
+				214EB97321B8D57C00AF0A3B /* ShowMeUrTattooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		214EB95621B8D57A00AF0A3B /* ShowMeUrTattoo */ = {
+			isa = PBXGroup;
+			children = (
+				214EB95721B8D57A00AF0A3B /* AppDelegate.swift */,
+				214EB95921B8D57A00AF0A3B /* ViewController.swift */,
+				214EB95B21B8D57A00AF0A3B /* Main.storyboard */,
+				214EB95E21B8D57C00AF0A3B /* Assets.xcassets */,
+				214EB96021B8D57C00AF0A3B /* LaunchScreen.storyboard */,
+				214EB96321B8D57C00AF0A3B /* Info.plist */,
+			);
+			path = ShowMeUrTattoo;
+			sourceTree = "<group>";
+		};
+		214EB96B21B8D57C00AF0A3B /* ShowMeUrTattooTests */ = {
+			isa = PBXGroup;
+			children = (
+				214EB96C21B8D57C00AF0A3B /* ShowMeUrTattooTests.swift */,
+				214EB96E21B8D57C00AF0A3B /* Info.plist */,
+			);
+			path = ShowMeUrTattooTests;
+			sourceTree = "<group>";
+		};
+		214EB97621B8D57C00AF0A3B /* ShowMeUrTattooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				214EB97721B8D57C00AF0A3B /* ShowMeUrTattooUITests.swift */,
+				214EB97921B8D57C00AF0A3B /* Info.plist */,
+			);
+			path = ShowMeUrTattooUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		214EB95321B8D57A00AF0A3B /* ShowMeUrTattoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 214EB97C21B8D57C00AF0A3B /* Build configuration list for PBXNativeTarget "ShowMeUrTattoo" */;
+			buildPhases = (
+				214EB95021B8D57A00AF0A3B /* Sources */,
+				214EB95121B8D57A00AF0A3B /* Frameworks */,
+				214EB95221B8D57A00AF0A3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShowMeUrTattoo;
+			productName = ShowMeUrTattoo;
+			productReference = 214EB95421B8D57A00AF0A3B /* ShowMeUrTattoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		214EB96721B8D57C00AF0A3B /* ShowMeUrTattooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 214EB97F21B8D57C00AF0A3B /* Build configuration list for PBXNativeTarget "ShowMeUrTattooTests" */;
+			buildPhases = (
+				214EB96421B8D57C00AF0A3B /* Sources */,
+				214EB96521B8D57C00AF0A3B /* Frameworks */,
+				214EB96621B8D57C00AF0A3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				214EB96A21B8D57C00AF0A3B /* PBXTargetDependency */,
+			);
+			name = ShowMeUrTattooTests;
+			productName = ShowMeUrTattooTests;
+			productReference = 214EB96821B8D57C00AF0A3B /* ShowMeUrTattooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		214EB97221B8D57C00AF0A3B /* ShowMeUrTattooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 214EB98221B8D57C00AF0A3B /* Build configuration list for PBXNativeTarget "ShowMeUrTattooUITests" */;
+			buildPhases = (
+				214EB96F21B8D57C00AF0A3B /* Sources */,
+				214EB97021B8D57C00AF0A3B /* Frameworks */,
+				214EB97121B8D57C00AF0A3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				214EB97521B8D57C00AF0A3B /* PBXTargetDependency */,
+			);
+			name = ShowMeUrTattooUITests;
+			productName = ShowMeUrTattooUITests;
+			productReference = 214EB97321B8D57C00AF0A3B /* ShowMeUrTattooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		214EB94C21B8D57A00AF0A3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Belma Ibrahimbas";
+				TargetAttributes = {
+					214EB95321B8D57A00AF0A3B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					214EB96721B8D57C00AF0A3B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 214EB95321B8D57A00AF0A3B;
+					};
+					214EB97221B8D57C00AF0A3B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 214EB95321B8D57A00AF0A3B;
+					};
+				};
+			};
+			buildConfigurationList = 214EB94F21B8D57A00AF0A3B /* Build configuration list for PBXProject "ShowMeUrTattoo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 214EB94B21B8D57A00AF0A3B;
+			productRefGroup = 214EB95521B8D57A00AF0A3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				214EB95321B8D57A00AF0A3B /* ShowMeUrTattoo */,
+				214EB96721B8D57C00AF0A3B /* ShowMeUrTattooTests */,
+				214EB97221B8D57C00AF0A3B /* ShowMeUrTattooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		214EB95221B8D57A00AF0A3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214EB96221B8D57C00AF0A3B /* LaunchScreen.storyboard in Resources */,
+				214EB95F21B8D57C00AF0A3B /* Assets.xcassets in Resources */,
+				214EB95D21B8D57A00AF0A3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214EB96621B8D57C00AF0A3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214EB97121B8D57C00AF0A3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		214EB95021B8D57A00AF0A3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214EB95A21B8D57A00AF0A3B /* ViewController.swift in Sources */,
+				214EB95821B8D57A00AF0A3B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214EB96421B8D57C00AF0A3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214EB96D21B8D57C00AF0A3B /* ShowMeUrTattooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214EB96F21B8D57C00AF0A3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214EB97821B8D57C00AF0A3B /* ShowMeUrTattooUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		214EB96A21B8D57C00AF0A3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 214EB95321B8D57A00AF0A3B /* ShowMeUrTattoo */;
+			targetProxy = 214EB96921B8D57C00AF0A3B /* PBXContainerItemProxy */;
+		};
+		214EB97521B8D57C00AF0A3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 214EB95321B8D57A00AF0A3B /* ShowMeUrTattoo */;
+			targetProxy = 214EB97421B8D57C00AF0A3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		214EB95B21B8D57A00AF0A3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				214EB95C21B8D57A00AF0A3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		214EB96021B8D57C00AF0A3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				214EB96121B8D57C00AF0A3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		214EB97A21B8D57C00AF0A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		214EB97B21B8D57C00AF0A3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		214EB97D21B8D57C00AF0A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77PRV5J86U;
+				INFOPLIST_FILE = ShowMeUrTattoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = belma.ibrahimbas.ShowMeUrTattoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		214EB97E21B8D57C00AF0A3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77PRV5J86U;
+				INFOPLIST_FILE = ShowMeUrTattoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = belma.ibrahimbas.ShowMeUrTattoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		214EB98021B8D57C00AF0A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77PRV5J86U;
+				INFOPLIST_FILE = ShowMeUrTattooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = belma.ibrahimbas.ShowMeUrTattooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShowMeUrTattoo.app/ShowMeUrTattoo";
+			};
+			name = Debug;
+		};
+		214EB98121B8D57C00AF0A3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77PRV5J86U;
+				INFOPLIST_FILE = ShowMeUrTattooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = belma.ibrahimbas.ShowMeUrTattooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShowMeUrTattoo.app/ShowMeUrTattoo";
+			};
+			name = Release;
+		};
+		214EB98321B8D57C00AF0A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77PRV5J86U;
+				INFOPLIST_FILE = ShowMeUrTattooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = belma.ibrahimbas.ShowMeUrTattooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShowMeUrTattoo;
+			};
+			name = Debug;
+		};
+		214EB98421B8D57C00AF0A3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77PRV5J86U;
+				INFOPLIST_FILE = ShowMeUrTattooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = belma.ibrahimbas.ShowMeUrTattooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShowMeUrTattoo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		214EB94F21B8D57A00AF0A3B /* Build configuration list for PBXProject "ShowMeUrTattoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214EB97A21B8D57C00AF0A3B /* Debug */,
+				214EB97B21B8D57C00AF0A3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		214EB97C21B8D57C00AF0A3B /* Build configuration list for PBXNativeTarget "ShowMeUrTattoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214EB97D21B8D57C00AF0A3B /* Debug */,
+				214EB97E21B8D57C00AF0A3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		214EB97F21B8D57C00AF0A3B /* Build configuration list for PBXNativeTarget "ShowMeUrTattooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214EB98021B8D57C00AF0A3B /* Debug */,
+				214EB98121B8D57C00AF0A3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		214EB98221B8D57C00AF0A3B /* Build configuration list for PBXNativeTarget "ShowMeUrTattooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214EB98321B8D57C00AF0A3B /* Debug */,
+				214EB98421B8D57C00AF0A3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 214EB94C21B8D57A00AF0A3B /* Project object */;
+}
